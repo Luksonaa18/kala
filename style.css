@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Ahom&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Phetsarath:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  gap: 9rem;
+}
+header {
+  background-image: url(nav-top/Group\ 7.png);
+  height: 600px;
+}
+.all-nav {
+  display: none;
+}
+nav {
+  padding: 2rem;
+}
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+nav h1 {
+  font-family: "Overpass" "SemiBold";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 55.15px;
+  letter-spacing: -1.0800000429153442px;
+  text-align: center;
+  color: white;
+}
+nav span {
+  font-family: "Overpass" "Light";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.58px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.text-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  justify-content: space-evenly;
+}
+#first {
+  width: 90%;
+  height: 48px;
+  border-radius: 28px;
+  background-color: white;
+  border: none;
+  color: rgba(255, 80, 92, 1);
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: center;
+}
+#first:hover {
+  background-color: rgba(255, 123, 134, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: 0.8s;
+}
+
+#second {
+  width: 90%;
+  height: 48px;
+  gap: 0px;
+  border-radius: 28px;
+  border: 1px solid white;
+  background-color: inherit;
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#second:hover {
+  color: rgba(255, 123, 134, 1);
+  background-color: white;
+  transition: 0.8s;
+}
+.down-buttons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 1rem;
+}
+.middle-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 750px;
+  gap: 2rem;
+  margin-bottom: 150px;
+}
+.middle-text {
+  width: 80%;
+}
+.bottom-text {
+  width: 80%;
+}
+.middle-part h2 {
+  font-family: "Overpass" "SemiBold";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(31, 62, 90, 1);
+}
+.bottom-part {
+  background-image: url(middle/Group\ 22.png);
+  position: relative;
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone-images {
+  position: absolute;
+  bottom: 410px;
+}
+.phone-texts {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 200px;
+  width: 70%;
+}
+.phone-texts h2 {
+  font-family: "Overpass" "SemiBold";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 61.28px;
+  letter-spacing: -1.2000000476837158px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.phone-texts span {
+  font-family: "Overpass" "Light";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.laptop-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.laptop-part h2 {
+  font-family: "Overpass" "SemiBold";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(31, 62, 90, 1);
+}
+.laptop-part span {
+  font-family: "Overpass" "Light";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(76, 88, 98, 1);
+}
+.laptop-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.laptop-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+footer li {
+  list-style: none;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  color: grey;
+}
+footer h1 {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+footer {
+  background-image: url(middle/Rectangle\ Copy\ 10.png);
+  width: 100%;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  gap: 1rem;
+}
+.asad{
+  display: none;
+}
+@media (min-width: 540px) {
+  body{
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+  }
+  .all-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 40px;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 430px;
+  }
+  nav {
+    position: relative;
+  }
+  .down-buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+  }
+  #first {
+    width: 15%;
+  }
+  #firti {
+    background-color: white;
+    border: none;
+    color: rgba(255, 80, 92, 1);
+    font-family: "Ubuntu";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.38px;
+    text-align: center;
+    border-radius: 100px;
+    height: 48px;
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+  }
+  #firti:hover {
+    background-color: rgba(255, 123, 134, 1);
+    color: rgba(255, 255, 255, 1);
+    transition: 0.8s;
+  }
+  #second {
+    width: 15%;
+  }
+  .burger {
+    display: none;
+  }
+  .middle-part {
+    padding: 5rem;
+    display: grid;
+    grid-template-areas:
+      "div1 div1 "
+      "div2 div3 "
+      "div4 div3 ";
+  }
+  .top {
+    grid-area: div1;
+  }
+  .middle-text {
+    grid-area: div2;
+    width: 60%;
+  }
+  .bottom-text {
+    grid-area: div4;
+    width: 53%;
+  }
+  .laptop-part {
+    padding: 5rem;
+    display: grid;
+    grid-template-areas:
+      "div1 div2"
+      "div1 div3";
+    place-items: center;
+  }
+  .image-laptop {
+    grid-area: div1;
+  }
+  .laptop-texts {
+    display: flex;
+    align-items: flex-start;
+    width: 63%;
+  }
+  .laptop-bottom {
+    display: flex;
+    align-items: flex-start;
+    width: 60%;
+  }
+  .footer {
+    height: 100%;
+  }
+  footer{
+    display: none;
+  }
+  .asad{
+    display: flex;
+    width: 100%;
+  }
+  
+ .dafa{
+  width: 150%;
+ }
+ nav span{
+  width: 54%;
+ }
+ .phone-images{
+  top: 100px;
+  left: 100px;
+ }
+ .phone-texts{
+  width: 40%;
+  left: 100px;
+ }
+}
