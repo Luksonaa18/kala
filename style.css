@@ -13,6 +13,7 @@ body {
 header {
   background-image: url(nav-top/Group\ 7.png);
   height: 600px;
+  background-size: cover;
 }
 .all-nav {
   display: none;
@@ -37,7 +38,7 @@ nav h1 {
   color: white;
 }
 nav span {
-  font-family: "Overpass" "Light";
+  font-family: "Overpass" Light;
   font-size: 18px;
   font-weight: 400;
   line-height: 27.58px;
@@ -126,6 +127,7 @@ nav span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
 }
 .phone-images {
   position: absolute;
@@ -170,6 +172,26 @@ nav span {
   line-height: 32px;
   text-align: center;
   color: rgba(31, 62, 90, 1);
+}
+.middle-text span {
+  font-family: "Overpass" "Light";
+  font-family: Overpass Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(76, 88, 98, 1);
+}
+.bottom-text span {
+  font-family: "Overpass" "Light";
+  font-family: Overpass Light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(76, 88, 98, 1);
 }
 .laptop-part span {
   font-family: "Overpass" "Light";
@@ -221,15 +243,16 @@ footer {
   height: 700px;
   gap: 1rem;
 }
-.asad{
+.asad {
   display: none;
 }
 @media (min-width: 540px) {
-  body{
+  body {
     overflow-x: hidden;
   }
   header {
     width: 100%;
+    background-size: cover;
   }
   .all-nav {
     display: flex;
@@ -270,7 +293,8 @@ footer {
   .buttons {
     display: flex;
     flex-direction: row;
-    width: 10%;
+    width: 16%;
+    align-items: center;
   }
   #firti:hover {
     background-color: rgba(255, 123, 134, 1);
@@ -282,6 +306,9 @@ footer {
   }
   .burger {
     display: none;
+  }
+  .bottom-part {
+    background-size: cover;
   }
   .middle-part {
     padding: 5rem;
@@ -326,26 +353,35 @@ footer {
   .footer {
     height: 100%;
   }
-  footer{
+  footer {
     display: none;
   }
-  .asad{
+  .asad {
     display: flex;
     width: 100%;
   }
-  
- .dafa{
-  width: 150%;
- }
- nav span{
-  width: 54%;
- }
- .phone-images{
-  top: 100px;
-  left: 100px;
- }
- .phone-texts{
-  width: 40%;
-  left: 100px;
- }
+
+  .dafa {
+    width: 150%;
+  }
+  nav span {
+    width: 54%;
+  }
+  .phone-images {
+    top: 100px;
+    left: 100px;
+  }
+  .phone-texts {
+    width: 40%;
+    left: 100px;
+  }
+  .texts h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
